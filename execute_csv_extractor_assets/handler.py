@@ -1,5 +1,5 @@
 import os
-from rest_extractor import extractor
+from execute_csv_extractor_assets import extractor
 
 def handle(secrets, data):
    print("running rest extractor")
