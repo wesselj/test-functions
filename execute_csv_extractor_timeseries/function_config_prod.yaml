@@ -1,0 +1,5 @@
+env_vars:
+  "COGNITE_BASE_URL": "https://greenfield.cognitedata.com"
+  "COGNITE_PROJECT": "bootcamp-17-prod"
+  "COGNITE_TOKEN_URL": "https://login.microsoftonline.com/16e3985b-ebe8-4e24-9da4-933e21a9fc81/oauth2/v2.0/token"
+  "COGNITE_CLIENT_ID": "894be098-97cc-4050-b0e3-e8bc80634af6"

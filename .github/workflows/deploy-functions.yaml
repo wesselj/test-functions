@@ -10,8 +10,9 @@ jobs:
     with:
       deploy_folders: >-
         (
-        "example_function1"
-        "example_function2"
+        "execute_csv_extractor_assets"
+        "execute_csv_extractor_timeseries"
+        "execute_rest_extractor"
         )
       trigger_deploy_all_folders: >-
         (
@@ -85,7 +86,7 @@ jobs:
         uses: cognitedata/function-action-oidc@v1
         with:
           # Parameters you may likely hardcode here directly:
-          runtime: py39
+          runtime: py38
           # Parameters we can read/extract automatically:
           function_folder: ${{ matrix.function }}
           function_external_id: ${{ matrix.function }}-${{ steps.extract_branch.outputs.branch }}
