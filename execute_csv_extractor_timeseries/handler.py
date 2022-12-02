@@ -1,5 +1,5 @@
 import os
-from execute_csv_extractor_timeseries import extractor
+from csv_extractor_simple import extractor
 
 def handle(secrets, data):
    print("running rest extractor")
