@@ -53,7 +53,7 @@ def timeseries_updates(
     return updated_timeseries_list
 
 
-def run_extractor(
+def run(
     cognite: CogniteClient, states: AbstractStateStore, config: IceCreamFactoryConfig, stop_event: Event
 ) -> None:
     """
